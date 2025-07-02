@@ -283,6 +283,7 @@ class _HomePageState extends State<HomePage> {
           }
         },
         backgroundColor: Colors.blue,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadiusGeometry.circular(30)),
         child: const Icon(Icons.add, color: Colors.white),
       ),
     );
